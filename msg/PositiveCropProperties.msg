@@ -1,0 +1,3 @@
+std_msgs/Header header
+int64 pred_category
+float64 pred_confidence

@@ -1,0 +1,29 @@
+# general
+seed: 42
+workers: 8
+exp_id: "human_sup_cc"
+dataset_dir: "/home/scazlab/Crops_Dataset"
+list_path: "/home/scazlab/Crops_Dataset/file_lists/"
+human_list_filename: "Human_Crushed_Cans_1.txt" 
+metric_save_json: "human_sup_cc.json"
+
+# train options
+batch_size: 64
+image_size: 128
+start_epoch: 0
+epochs: 1000
+dataset: "crops" # CIFAR-10 / CIFAR-100 / STL-10 / ImageNet-10 / ImageNet-dogs / tiny-ImageNet
+mean: [128, 128, 128]
+
+# model options
+resnet: "ResNet18" # ResNet18 / ResNet34 / ResNet50
+feature_dim: 128
+model_path: "/home/scazlab/catkin_ws/src/recycling_stretch/scripts/contrastive_clustering_occ/save/"
+reload: False
+eval_epoch: 1000
+
+# loss options
+learning_rate: 0.01 # 0.0003 --> default
+weight_decay: 0.
+instance_temperature: 0.5
+cluster_temperature: 1.0

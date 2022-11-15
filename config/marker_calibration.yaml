@@ -1,0 +1,16 @@
+'aruco_marker_info': 
+  '2':
+    'length_mm': 98.425
+    'use_rgb_only': False
+    'name': 'base_left'
+    'link': 'link_aruco_left_base'
+  '23':
+    'length_mm': 65.09
+    'use_rgb_only': False
+    'name': 'base_right'
+    'link': 'link_aruco_right_base'
+  '130':
+    'length_mm': 98.425
+    'use_rgb_only': False
+    'name': 'base_left'
+    'link': 'link_aruco_left_base'

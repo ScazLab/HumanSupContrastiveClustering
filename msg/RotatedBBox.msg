@@ -1,0 +1,8 @@
+float64 top_left_x
+float64 top_left_y
+float64 top_right_x
+float64 top_right_y
+float64 bottom_left_x
+float64 bottom_left_y
+float64 bottom_right_x
+float64 bottom_right_y

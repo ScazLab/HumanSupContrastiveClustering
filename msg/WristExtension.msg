@@ -1,0 +1,6 @@
+std_msgs/Header header
+float32 wrist_extension
+float32 push_time
+float32 lift_time
+float32 lift_position
+float32 retraction_time

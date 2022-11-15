@@ -1,0 +1,4 @@
+std_msgs/Header header
+geometry_msgs/PoseStamped[] poses
+recycling_stretch/DebugSimDetectedBox sim_detected_box_data
+sensor_msgs/Image img
