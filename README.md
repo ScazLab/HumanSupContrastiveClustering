@@ -5,7 +5,7 @@
 
 **Conference on Robot Learning, 2022 (CoRL, 2O22)**
 
-[Paper]() | [Project Page]()
+[Paper](https://drive.google.com/file/d/1LOa3ugXvbT_Gd0myeg8thzOMIRyFgBIr/view?usp=sharing) | [Project Page](https://sites.google.com/view/corl22-contrastive-recycling/home)
 
 ## Abstract
 
